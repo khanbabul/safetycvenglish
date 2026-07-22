@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Century';
+    src: url(./Font.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Century';
+    font-size: 16px;
+}
+
+body h1{
+    color: rgb(40, 40, 40);
+}
+
+body h1 a{
+    text-decoration: none;
+    color: blue;
+}
+
+body h1 a:hover{
+    color: purple;
+}
